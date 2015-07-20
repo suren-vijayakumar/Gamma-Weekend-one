@@ -1,0 +1,55 @@
+h1 {
+color: #33AABB;
+font-family: fantasy;
+font-size: 60px;
+border: 2px;
+}
+
+h3 {
+
+	color: #33BB55;
+	font-family: sans-serif;
+	font-style: italic;
+}
+/*.superButton {
+
+	width: 50px;
+	height:15px;
+	background-color:#FF0000;
+}
+
+.selected {
+	background-color: #FF0000;
+}
+
+.unselected {
+	background-color: #666666;
+}*/
+form p {
+
+	width: 100 px;
+	display: inline;
+	padding: 32px;
+	border: 2px;
+	
+}
+
+
+
+form input {
+    
+	display: inline;
+}
+
+.Row {
+
+	/*float:left;*/
+	padding: 4px;
+}
+
+.table{
+
+	display: inline;
+
+	float:left;
+}
