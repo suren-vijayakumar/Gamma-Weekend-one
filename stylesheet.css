@@ -11,29 +11,22 @@ h3 {
 	font-family: sans-serif;
 	font-style: italic;
 }
-/*.superButton {
+.employeeCard {
 
-	width: 50px;
-	height:15px;
-	background-color:#FF0000;
+	margin-top: 10px;
 }
-
-.selected {
-	background-color: #FF0000;
-}
-
-.unselected {
-	background-color: #666666;
-}*/
 form p {
 
-	width: 100 px;
+	width: 150 px;
 	display: inline;
 	padding: 32px;
 	border: 2px;
 	
 }
+.buttonmargin {
 
+	margin-top: 15px;
+}
 
 
 form input {
@@ -41,7 +34,7 @@ form input {
 	display: inline;
 }
 
-.Row {
+.Rows {
 
 	/*float:left;*/
 	padding: 4px;

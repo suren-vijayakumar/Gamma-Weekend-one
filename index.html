@@ -4,32 +4,59 @@
     <meta charset="utf-8">
     <meta name="description" content="Webpage">
       <title> Employee Reporting System </title>
-      <link rel = "stylesheet" href= "stylesheet.css">
+       <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+       <link rel = "stylesheet" href= "stylesheet.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script type= "text/javascript" src = "app.js"></script>
     </head>
-    <body>
+
+    <body >
+      <div class ="container-fluid">
+      <div class="col-md-12 col-sm-12">
+       
       <h1> Space Ninjas Employee Reporting System </h1>
-      <h3> Current Running Total Salary: </h3>
-    	<form id="employeeForm"> 
-    		<p>First Name</p>
-        <p>Last Name </p>
-        <p>Employee ID </p>
-        <p>Title </p>
-        <p>Review Score </p>
-        <p>Salary <br></p>
-    		  <input type="text" name="firstname">
-    		  <input type="text" name="lastname">
-    		  <input type ="text" name="employeeNumber">
-          <input type ="text" name="title">        
-          <input type ="text" name="lastReviewScore">
-          <input type ="text" name="salary">
-    		<p><input type="submit" value="Entered Employee" class ="Row"></p>
-        <button id="newEmployeeButton">Random Employee</button>
+      <h3> Current Running Total Salary: </h3></div>
+      <div class ="row"> 
+    	<div class="col-md-9 col-sm-12">
+      <form id="employeeForm"> 
+    	     
+          <div class ="col-md-2">
+            <label>First Name </label>
+      		  <input type="text" name="firstname">
+          </div>
+          <div class ="col-md-2">
+      		  <label>Last Name  </label> 
+            <input type="text" name="lastname">
+          </div>
+          <div class ="col-md-2">
+            <label>Employee ID </label>
+      		  <input type ="text" name="employeeNumber">
+          </div>
+          <div class ="col-md-2">
+            <label>Title </label>
+            <input type ="text" name="title">  
+          </div>
+          <div class ="col-md-2">
+            <label>Review Score  </label>      
+            <input type ="text" name="lastReviewScore">
+          </div>
+          <div class ="col-md-2">
+            <label>Salary  </label> 
+            <input type ="text" name="salary">
+          </div>
+        </div>
+        <div class ="col-md-3 buttonmargin">
+      		<button type="submit" value="Entered Employee" class= "btn btn-warning">Entered Employee</button>
+          
+        </div>
+      </div>
+    </div>
     	</form>    
-    
-    <table>
+    <button class="btn btn-info" id="newEmployeeButton">Random Employee</button>
+    <table class ="col-md-12">
     </table>
+  </div>
+ </div>
     </body>
 </html>
 
